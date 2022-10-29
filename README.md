@@ -1,9 +1,9 @@
 ﻿# Setup project:
 
     - Rename the .env.example to .env
-    - Update the API_KEY and API_SECRET to a valid key and secret4
+    - Update the API_KEY and API_SECRET to a valid key and secret
 
-# To run the grape
+# To run the Grape
 
     - Navigate to grenache-grape folder and execute below command
         npm install
@@ -27,7 +27,7 @@
             npm install
             npm start
 
-# functionality available for client:
+# Functionality available for client:
 
     - Function to get the ticker information => getTicker
     - Function to get the account information for a user => getAccountInfo
@@ -36,12 +36,14 @@
 
 # Missing features:
 
-    - Unit tests for the server,client and the helper methods
+    - Unit tests for the server, client and the helper methods
 
 # Code refactoring:
 
-    - Much clean code design pattern can be implemented to decide the worker instead of if/else condition
+    - Better clean code approach can be implemented
+    - Command design pattern can be implemented to decide the worker instead of if/else condition
     - Project structuring can be improved
+    - Constants can be moved to a separate file
 
 # Known issues:
 
